@@ -20,10 +20,10 @@ if (productWithId) {
   productName.textContent = productWithId.name; // Cập nhật tên sản phẩm
   productPrice.textContent = priceSpro; // Cập nhật giá sản phẩm
   productDes.textContent = productWithId.description; // Cập nhật mô tả
-  mainImg.src = `/img/shoes/${productWithId.id}_1.jpg`; // Cập nhật ảnh sản phẩm main
-  smallImg1.src = `/img/shoes/${productWithId.id}_1.jpg`; // Cập nhật ảnh sản phẩm small
-  smallImg2.src = `/img/shoes/${productWithId.id}_2.jpg`; // Cập nhật ảnh sản phẩm small
-  smallImg3.src = `/img/shoes/${productWithId.id}_3.jpg`; // Cập nhật ảnh sản phẩm small
+  mainImg.src = `img/shoes/${productWithId.id}_1.jpg`; // Cập nhật ảnh sản phẩm main
+  smallImg1.src = `img/shoes/${productWithId.id}_1.jpg`; // Cập nhật ảnh sản phẩm small
+  smallImg2.src = `img/shoes/${productWithId.id}_2.jpg`; // Cập nhật ảnh sản phẩm small
+  smallImg3.src = `img/shoes/${productWithId.id}_3.jpg`; // Cập nhật ảnh sản phẩm small
 }
 
 sizeSelect.innerHTML = '';

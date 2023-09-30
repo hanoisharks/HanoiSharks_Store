@@ -1,5 +1,5 @@
-//thay === số trùng với id của giày
-var productId = 9 ;
+ //thay === số trùng với id của giày
+var productId = 64 ;
 
 var sizeSelect = document.getElementById("size-select");
 var productName = document.querySelector("#prodetails .sing-pro-details h4");
