@@ -2,6 +2,7 @@ let productHTML = '' ;
 
 let search = '' ;
 
+
 product.forEach((product) =>  {
 
   if(product.keyword.includes(search)) {
