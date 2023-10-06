@@ -27,7 +27,7 @@ searchInput.addEventListener('input', function() {
           </div>
           <a href="#"><img class="cart" src="cart_icon.png" alt=""></a>
         </div>
-      `;
+      `;  
     }
   });
 

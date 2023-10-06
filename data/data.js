@@ -190,7 +190,7 @@ const product = [
     "name": "Sharks Kid 7",
     "img": "7_1.jpg",
     "description": "Uper đẹp nhưng đế mềm, phù hợp indoor",
-    "keyword": "kid",
+    "keyword": "kid, hot",
     "price": 700,
     "43.5": "",
     "44.5": ""
@@ -386,7 +386,7 @@ const product = [
     "name": "Sharks Kid 14",
     "img": "14_1.jpg",
     "description": "",
-    "keyword": "kid",
+    "keyword": "kid, hot",
     "price": 700,
     "43.5": "",
     "44.5": ""
@@ -414,7 +414,7 @@ const product = [
     "name": "Sharks Kid 15",
     "img": "15_1.jpg",
     "description": "",
-    "keyword": "kid",
+    "keyword": "kid, hot",
     "price": 700,
     "43.5": "",
     "44.5": ""
@@ -466,7 +466,7 @@ const product = [
     "43": "",
     "44": "",
     "45": "",
-    "id": 16,
+    "id": 17,
     "name": "Sharks Kid 17",
     "img": "17_1.jpg",
     "description": "",
@@ -494,7 +494,7 @@ const product = [
     "43": "",
     "44": "",
     "45": "",
-    "id": 17,
+    "id": 18,
     "name": "Sharks Kid 18",
     "img": "18_1.jpg",
     "description": "",
@@ -522,7 +522,7 @@ const product = [
     "43": "",
     "44": "",
     "45": "",
-    "id": 18,
+    "id": 19,
     "name": "Sharks Kid 19",
     "img": "19_1.jpg",
     "description": "",
@@ -610,7 +610,7 @@ const product = [
     "name": "Anta E-Buffer",
     "img": "52_1.jpg",
     "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor",
-    "keyword": "kid, anta",
+    "keyword": "kid, anta,hot",
     "price": 1400,
     "43.5": "",
     "44.5": ""
@@ -638,7 +638,7 @@ const product = [
     "name": "Peak Kids White",
     "img": "53_1.jpg",
     "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor",
-    "keyword": "peak",
+    "keyword": "peak, hot",
     "price": 1400,
     "43.5": "",
     "44.5": ""
@@ -666,7 +666,7 @@ const product = [
     "name": "Anta Kid Habu",
     "img": "54_1.jpg",
     "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor",
-    "keyword": "anta, kid",
+    "keyword": "anta, kid, hot",
     "price": 1500,
     "43.5": "",
     "44.5": ""
@@ -722,7 +722,7 @@ const product = [
     "name": "Lining Sonic 7 low",
     "img": "56_1.jpg",
     "description": "Upper đẹp, đế light foam phù hợp indoor và outdoor",
-    "keyword": "lining",
+    "keyword": "lining, hot",
     "price": 1500,
     "43.5": "",
     "44.5": ""
@@ -890,7 +890,7 @@ const product = [
     "name": "Anta X Gordon 3 Multi color",
     "img": "61_1.jpg",
     "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor\nForm giày ôm chân",
-    "keyword": "anta, kid",
+    "keyword": "anta, hot",
     "price": 2000,
     "43.5": "",
     "44.5": 0
