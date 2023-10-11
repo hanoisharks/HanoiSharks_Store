@@ -1482,6 +1482,10 @@ footer .copyright {
     font-size: 6px;
   }
 
+  #quantity::placeholder {
+    content: "SL.";
+  }
+
   #prodetails .submit-cart .sing-pro-details .choice-container input {
     width: 15px;
     height: 10px;
