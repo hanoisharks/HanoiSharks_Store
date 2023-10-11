@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang Admin</title>
+</head>
+<body>
+    <h1>Chọn sản phẩm để xem kích thước và số lượng giày</h1>
+    <select id="productSelector">
+        <option value="">Chọn sản phẩm</option>
+        <!-- Thêm các tùy chọn sản phẩm từ dữ liệu -->
+        <script src="data/data.js"></script>
+        <script>
+            const products = [...product]; // product là biến từ data.js
+            const productSelector = document.getElementById("productSelector");
+
+            for (const product of products) {
+                const option = document.createElement("option");
+                option.value = product.id;
+                option.textContent = product.name;
+                productSelector.appendChild(option);
+            }
+        </script>
+    </select>
+
+    <h2>Kích thước và số lượng giày</h2>
+    <table id="productSizesTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Kích thước</th>
+                <th>Số lượng</th>
+                <th>Chỉnh sửa</th>
+            </tr>
+        </thead>
+        <tbody id="productSizes">
+            <!-- Dữ liệu sẽ được thêm vào đây bằng JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        const productSizesTable = document.getElementById("productSizesTable");
+        const productSizesTbody = document.getElementById("productSizes");
+
+        function addSizeAndQuantity(product) {
+            productSizesTbody.innerHTML = ""; // Xóa dữ liệu cũ trước khi thêm mới
+
+            for (const size in product) {
+                if (!isNaN(size) && product[size] !== "") {
+                    const row = document.createElement("tr");
+                    const sizeCell = document.createElement("td");
+                    const quantityCell = document.createElement("td");
+                    const editCell = document.createElement("td");
+
+                    sizeCell.textContent = size;
+                    quantityCell.textContent = product[size];
+
+                    const editButton = document.createElement("button");
+                    editButton.textContent = "Sửa";
+                    editButton.addEventListener("click", () => {
+                        const newQuantity = prompt(`Nhập số lượng mới cho kích thước ${size}`, product[size]);
+                        if (newQuantity !== null) {
+                            product[size] = newQuantity;
+                            quantityCell.textContent = newQuantity;
+                        }
+                    });
+
+                    editCell.appendChild(editButton);
+
+                    row.appendChild(sizeCell);
+                    row.appendChild(quantityCell);
+                    row.appendChild(editCell);
+
+                    productSizesTbody.appendChild(row);
+                }
+            }
+        }
+
+        
+
+        const productSelector1 = document.getElementById("productSelector");
+        productSelector1.addEventListener("change", function () {
+            const selectedProductId = productSelector1.value;
+            if (selectedProductId) {
+                // Tìm sản phẩm dựa trên ID
+                const selectedProduct = products.find(product => product.id == selectedProductId);
+                if (selectedProduct) {
+                    addSizeAndQuantity(selectedProduct);
+                    productSizesTable.style.display = "block";
+                } else {
+                    productSizesTable.style.display = "none";
+                }
+            } else {
+                productSizesTable.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
