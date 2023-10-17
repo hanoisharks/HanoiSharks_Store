@@ -731,32 +731,35 @@ footer .copyright {
 }
 
 #prodetails .submit-cart .sing-pro-details .choice-container {
-  display: flex;
-  justify-content: center;
+  margin-left: 200px;
+  display: block;
+  justify-items: center;
 }
 
 #prodetails .submit-cart .sing-pro-details .choice-container select {
-  display: block;
-  padding: 5px 10px;
-  margin-bottom: 10px;
+  border-radius: 8%;
+  margin: 10px 10px;
+  padding: 5px 0px;
   font-size: 16px;
   height: 47px;
 }
 
 #prodetails .submit-cart .sing-pro-details .choice-container input {
-  width: 50px;
+  border-radius: 8%;
+  margin: 10px 10px;
+  width: 70px;
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
-  margin-left: 10px;
 }
 
 #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+  border-radius: 8%;
+  margin: 10px 10px;
   width: 200px;
   height: 47px;
   padding-left: 10px;
   font-size: 16px;
-  margin-right: 10px;
 }
 
 #prodetails .submit-cart .sing-pro-details .choice-container input:focus {

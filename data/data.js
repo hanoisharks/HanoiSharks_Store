@@ -947,7 +947,7 @@ const product = [
     "id": 64,
     "name": "Anta X Gordon 3 Multi color",
     "img": "64_1.jpg",
-    "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor\nForm giày ôm chân",
+    "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor Form giày ôm chân",
     "keyword": "anta, hot",
     "price": 2000,
     "43.5": "",

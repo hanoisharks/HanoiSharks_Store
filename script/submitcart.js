@@ -12,10 +12,12 @@ document.querySelector('#submit-cart').onsubmit = function(e) {
 
   if (phone.trim() == '') {
     errors.phone = 'Số điện thoại không được để trống';
+    alert('Vui lòng kiểm tra lại số điện thoại số điện thoại không được để trống');
   }
 
   if (!isPhoneNumberValid(phone)) {
     errors.phone = 'Vui lòng kiểm tra lại số điện thoại.';
+    alert('Vui lòng kiểm tra lại cú pháp số điện thoại');
   }
 
   if (Object.keys(errors).length > 0) {
@@ -36,6 +38,6 @@ document.querySelector('#submit-cart').onsubmit = function(e) {
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     this.reset(); // Đặt lại form sau khi gửi thành công.
     xhr.send(queryString);
-    alert('Đăng ký mua hàng thành công. Vui lòng để ý cuộc gọi xác nhận đơn hàng và hướng dẫn thanh toán.');
+    alert('Đăng ký mua hàng thành công. Vui lòng để ý cuộc gọi Hanoi Sharks Store sẽ nhanh chóng xác nhận đơn hàng và hướng dẫn thanh toán.');
   }
 };
