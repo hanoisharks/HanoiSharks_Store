@@ -858,14 +858,16 @@ const product = [
     "43": "",
     "44": "",
     "45": 1,
+
     "id": 61,
-    "name": "Anta Kid Cement Buster",
+    "name": "Lining Sonic 7 low",
     "img": "61_1.jpg",
-    "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor",
-    "keyword": "lining",
-    "price": 1700,
+    "description": "",
+    "keyword": "anta",
+    "price": 1500,
     "43.5": "",
     "44.5": ""
+
   },
   {
     "28": "",
@@ -887,13 +889,13 @@ const product = [
     "44": "",
     "45": 1,
     "id": 62,
-    "name": "Anta X Gordon 3 Multi color",
+    "name": "Lining Sonic 7 low",
     "img": "62_1.jpg",
-    "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor\nForm giày ôm chân",
-    "keyword": "anta, hot",
-    "price": 2000,
+    "description": "",
+    "keyword": "lining, new",
+    "price": 1500,
     "43.5": "",
-    "44.5": ""
+    "44.5": 0
   },
   {
     "28": "",
@@ -915,11 +917,11 @@ const product = [
     "44": "",
     "45": "",
     "id": 63,
-    "name": "Lining Sonic 7 low",
+    "name": "Anta Kid Cement Buster",
     "img": "63_1.jpg",
-    "description": "",
-    "keyword": "anta",
-    "price": 1500,
+    "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor",
+    "keyword": "lining",
+    "price": 1700,
     "43.5": "",
     "44.5": ""
   },
@@ -943,12 +945,12 @@ const product = [
     "44": "",
     "45": "",
     "id": 64,
-    "name": "Lining Sonic 7 low",
+    "name": "Anta X Gordon 3 Multi color",
     "img": "64_1.jpg",
-    "description": "",
-    "keyword": "lining, new",
-    "price": 1500,
+    "description": "Upper đẹp, đế cứng phù hợp indoor và outdoor\nForm giày ôm chân",
+    "keyword": "anta, hot",
+    "price": 2000,
     "43.5": "",
-    "44.5": 0
+    "44.5": ""
   }
 ];
