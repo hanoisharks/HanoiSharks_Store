@@ -46,52 +46,16 @@
     </div>
   </section>
 
-  <section id="prodetails" class="section-p1">
-    <div class="single-pro-image">
-      <img src="img/shoes/1_1.jpg" width="100%" id="main-img" alt="">
-  
-      <div class="small-img-group">
-        <div class="small-img-col">
-          <img src="img/shoes/1_1.jpg" width="100%" class="small-img" id="small-img1" alt="">
-        </div>
-        <div class="small-img-col">
-          <img src="img/shoes/1_2.jpg" width="100%" class="small-img" id="small-img2" alt="">
-        </div>
-        <div class="small-img-col">
-          <img src="img/shoes/1_3.jpg" width="100%" class="small-img" id="small-img3" alt="">
-        </div>
-      </div>
+  <section id="changeSize">
+    <div class="changeSize-img">
+      <h4>Hướng dẫn quy đổi size giày trẻ em:</h4>
+      <img src="img/shoes/changesize.jpg" alt="" style="width: 180%; border: 1px solid #000;">
+      <h4>Hướng dẫn quy đổi size giày anta nữ:</h4>
+      <img src="img/shoes/changeSize_Anta_Nu.jpg" alt="" style="width: 100%;">
+      <h4>Hướng dẫn quy đổi size giày anta nam:</h4>
+      <img src="img/shoes/changeSize_Anta_Nam.jpg" alt="" style="width: 100%;">
     </div>
-
-    <form action="" method="post" id="submit-cart" class="submit-cart">
-      <div class="sing-pro-details">
-        <h4>Sharks Kid 9</h4>
-        <h2 style="color: red;">700.000₫</h2>
-        <div class="choice-container">
-          <label for="">Chọn size giày:</label>
-          <select id="size-select" name="size">
-          </select>
-          <br>
-          <label for="">Số lượng:</label>
-          <input type="text" id="quantity" name="quantity" placeholder="VD: 1">
-          <br>
-          <label for="">Số Điện thoại</label>
-          <input type="tel" name="phone" class="cart-phone-submit" id="phoneNumber" placeholder="VD: 0966107909">
-          <br>
-          <button class="normal" type="submit">Thanh Toán</button>
-        </div>
-        <h4>Miêu tả sản phẩm</h4>
-        <span>Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-          Uper đẹp, đế cứng phù hợp outdoor và indoor -> Bền
-        </span>
-        <h5 style="margin:10px 20px;">Bảng quy đổi size giày:</h5>
-        <img src="img/shoes/changesize.jpg" alt="" style="width: 100%; border: 0.5px solid #000;">
-        <h4><a href="changeSize.html" style="color: black;">Hướng dẫn quy đổi size giày</a></h4>
-      </div>
-    </form>
+    <div class=""></div>
   </section>
 
   <section id="newsletter" class="section-p1 section-m1">
@@ -156,29 +120,9 @@
     </div>
   </footer>
 
-  <script>
-    var MainImg = document.getElementById("main-img");
-    var smallimg = document.getElementsByClassName("small-img");
-
-    smallimg[0].onclick = function(){
-      MainImg.src = smallimg[0].src;
-    }
-    smallimg[1].onclick = function(){
-      MainImg.src = smallimg[1].src;
-    }
-    smallimg[2].onclick = function(){
-      MainImg.src = smallimg[2].src;
-    }
-    smallimg[3].onclick = function(){
-      MainImg.src = smallimg[3].src;
-    }
-    
-  </script>
-
   <script src="data/data.js"></script>
-  <script src="script/sproduct1.js"></script>
   <script src="script/script.js"></script>
+  <script src="script/build.js"></script>
   <script src="script/submitform.js"></script>
-  <script src="script/submitcart.js"></script>
 </body>
 </html>

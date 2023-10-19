@@ -718,6 +718,10 @@ footer .copyright {
   padding: 30px;
 }
 
+#prodetails .submit-cart .sing-pro-details img {
+  width: 100%;
+}
+
 #prodetails .submit-cart .sing-pro-details h4 {
   display: flex;
   justify-content: center;
@@ -731,7 +735,7 @@ footer .copyright {
 }
 
 #prodetails .submit-cart .sing-pro-details .choice-container {
-  margin-left: 200px;
+  margin-left: 250px;
   display: block;
   justify-items: center;
 }
@@ -746,7 +750,7 @@ footer .copyright {
 
 #prodetails .submit-cart .sing-pro-details .choice-container input {
   border-radius: 8%;
-  margin: 10px 10px;
+  margin: 10px 60px;
   width: 70px;
   height: 47px;
   padding-left: 10px;
@@ -755,7 +759,7 @@ footer .copyright {
 
 #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
   border-radius: 8%;
-  margin: 10px 10px;
+  margin: 10px 30px;
   width: 200px;
   height: 47px;
   padding-left: 10px;
@@ -770,6 +774,7 @@ footer .copyright {
   background: #088178;
   color: #fff;
   height: 47px;
+  margin-left: 80px;
 }
 
 #prodetails .submit-cart .sing-pro-details span {
@@ -960,6 +965,17 @@ footer .copyright {
 
 
 
+#changeSize .changeSize-img {
+  width: 800px;
+  margin: 20px 20px;
+}
+
+#changeSize .changeSize-img h4 {
+  margin: 20px 20px;
+}
+
+
+
 
 
 
@@ -989,7 +1005,6 @@ footer .copyright {
     margin: 10px 10px;
   }
 
-  /* Single Product */
   #prodetails {
     display: flex;
     margin-top: 20px;
@@ -1038,50 +1053,53 @@ footer .copyright {
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    margin-left: 100px;
     display: block;
-    padding: 5px 10px;
-    margin-bottom: 0px;
-    font-size: 10px;
-    width: 60px;
-    height: 40px;
+    justify-items: center;
   }
-
+  
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    border-radius: 8%;
+    margin: 10px 10px;
+    padding: 5px 0px;
+    font-size: 16px;
+    height: 47px;
+  }
+  
   #prodetails .submit-cart .sing-pro-details .choice-container input {
-    width: 40px;
-    height: 40px;
+    border-radius: 8%;
+    margin: 10px 10px;
+    width: 70px;
+    height: 47px;
     padding-left: 10px;
-    font-size: 10px;
-    margin-left: 10px;
+    font-size: 16px;
   }
-
+  
   #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
-    width: 150px;
-    height: 40px;
+    border-radius: 8%;
+    margin: 10px 10px;
+    width: 200px;
+    height: 47px;
     padding-left: 10px;
-    font-size: 12px;
-    margin-right: 10px;
+    font-size: 16px;
   }
-
+  
   #prodetails .submit-cart .sing-pro-details .choice-container input:focus {
     outline: none;
   }
-
+  
   #prodetails .submit-cart .sing-pro-details .choice-container button {
-    text-align: center;
-    padding: 0px;
-    font-size: 10px;
-    width: 50px;
-    height: 40px;
+    background: #088178;
+    color: #fff;
+    height: 47px;
+  }
+  
+  #prodetails .submit-cart .sing-pro-details span {
+    line-height: 25px;
   }
 
-  #prodetails .submit-cart .sing-pro-details span {
-    font-size: 15px;
-    line-height: 15px;
+  #changeSize .changeSize-img {
+    width: 50%;
   }
   
 }
@@ -1195,7 +1213,7 @@ footer .copyright {
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container {
-    margin-bottom: 10px;
+    margin-left: 10px;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container select {
@@ -1257,6 +1275,10 @@ footer .copyright {
 
   #contact-details .map {
     width: 100%;
+  }
+
+  #changeSize .changeSize-img h4 {
+    font-size: 50%;
   }
 }
 
@@ -1492,6 +1514,10 @@ footer .copyright {
     margin-bottom: 5px;
   }
 
+  #prodetails .submit-cart .sing-pro-details .choice-container label {
+    font-size: 8px;
+  }
+
   #prodetails .submit-cart .sing-pro-details .choice-container select {
     width: 40px;
     height: 15px;
@@ -1517,12 +1543,11 @@ footer .copyright {
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container button {
-    width: 35px;
-    height: 15px;
-    font-size: 5px;
-    padding-left: 0px;
-    margin: 0px 5px;
-    border-radius: 1px;
+    width: 50px;
+    font-size: 8px;
+    padding: 20px 10px;
+    border-radius: 2px;
+    margin-top: 5px;
   }
 
   #prodetails .submit-cart .sing-pro-details h4 {
@@ -1641,50 +1666,78 @@ footer .copyright {
     padding: 23px 10px;
   }
 
+  #prodetails .submit-cart .sing-pro-details img {
+    width: 100%;
+  }
+
   #prodetails .submit-cart .sing-pro-details .choice-container {
     margin-top: -13px;
     margin-bottom: 23px;
+    margin-left: -8px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container label {
+    margin: 0px 0px;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container select {
     width: 30px;
     height: 10px;
     font-size: 6px;
+    margin: 0px 0px;
+    border: 1px solid #000;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container input {
-    width: 15px;
+    width: 20px;
     height: 10px;
     font-size: 6px;
     padding-left: 0px;
-    margin: 0px 5px;
+    margin: 0px 0px;
+    border: 1px solid #000;
+    margin-left: 25px;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
-    width: 30px;
+    width: 45px;
     height: 10px;
     font-size: 6px;
     padding-left: 0px;
-    margin: 0px ;
+    margin: 0px 0px;
+    border: 1px solid #000;
+    margin-left: 10px;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container button {
-    width: 30%;
-    height: 10px;
+    width: 50px;
+    height: 25px;
     font-size: 4px;
+    line-height: 4px;
     border-radius: 1px;
-    margin-left: 5px ;
+    padding: 10px 15px;
+    margin: 0px 0px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   #prodetails .submit-cart .sing-pro-details h4 {
-    font-size: 7px;
-    margin-top: -20px;
+    font-size: 4px;
     padding: 0;
   }
 
   #prodetails .submit-cart .sing-pro-details h2 {
     font-size: 6px;
     margin-top: -15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h5 {
+    font-size: 4px;
+    margin-left: -50px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details img {
+    height: ;
   }
 
   #prodetails .submit-cart .sing-pro-details span {
