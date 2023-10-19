@@ -1105,6 +1105,44 @@ footer .copyright {
 }
 
 
+@media (max-width: 1024px) {
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    margin-left: -10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    height: 30px;
+    width: 30%;
+    font-size: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    height: 30px;
+    width: 15%;
+    padding: 0 0 ;
+    font-size: 15px;
+    margin-left: 60px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    height: 30px;
+    width: 40%;
+    padding: 0 0 ;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    margin: 10px 0;
+    margin-left: 120px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details span {
+    font-size: 15px;
+  }
+}
+
+
 
 /*  Start Media Query Ipad */
 
@@ -1213,23 +1251,45 @@ footer .copyright {
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container {
-    margin-left: 10px;
+    margin-left: -10px;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container select {
-    width: 50%;
+    margin: 10px 0 ;
+    font-size: 12px;
+    padding: 0 0;
+    height: 20px;
+    width: 30%;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container input {
-    width: 50%;
+    margin: 10px 0 ;
+    font-size: 12px;
+    padding: 5px 10px;
+    height: 20px;
+    width: 20%;
+    margin-left: 50px;
   }
 
   #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    margin: 10px 0 ;
+    font-size: 12px;
+    padding: 0 0;
+    height: 20px;
     width: 50%;
+    margin-left: 20px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    margin: 10px 0px;
+    padding:  0 10px;
+    font-size: 8px;
+    margin-left: 100px;
   }
 
   #prodetails .submit-cart .sing-pro-details h4 {
     padding: 0;
+    font-size: 10px;
   }
 
   #prodetails .submit-cart .sing-pro-details h2 {
@@ -1238,7 +1298,11 @@ footer .copyright {
   }
 
   #prodetails .submit-cart .sing-pro-details span {
-    font-size: 13px;
+    font-size: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h5 {
+    font-size: 10px;
   }
 
   #banner {
@@ -1423,6 +1487,54 @@ footer .copyright {
   
   #contact-details .details li p {
     font-size: 80%;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    margin-left: -20px;
+    padding: 0 0;
+    margin: 0 0;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container label {
+    font-size: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container select {
+    padding: 0 0 ;
+    margin: 0 0;
+    height: 25px;
+    width: 50px;
+    font-size: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    padding: 0 0 ;
+    height: 25px;
+    width: 50px;
+    font-size: 10px;
+    margin-left: 30px;
+  }
+  
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    padding: 0 0 ;
+    margin: 0 0;
+    height: 25px;
+    width: 95px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    width: 60px;
+    height: 30px;
+    font-size: 7px;
+    padding: 0 0;
+    margin-top: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h4 {
+    margin-top: 5px;
+    font-size: 10px;
   }
 }
 
@@ -1615,6 +1727,63 @@ footer .copyright {
   }
 }
 
+
+@media (max-width: 380px){
+  #prodetails .submit-cart .sing-pro-details .choice-container {
+    margin-left: -5px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container h4 {
+    margin: 0 0;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container h2 {
+    margin: 10px 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    margin-left: 30px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    margin-left: 15px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    width: 50px;
+    height: 25px;
+    padding: 0 0;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 414px){
+
+  #prodetails .submit-cart .sing-pro-details .choice-container input {
+    margin-left: 30px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container .cart-phone-submit {
+    margin-left: 15px;
+    width: 70px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details .choice-container button {
+    margin: 0 0;
+    padding: 0 0;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h4 {
+    font-size: 10px;
+  }
+
+  #prodetails .submit-cart .sing-pro-details h5 {
+    font-size: 10px;
+    margin-left: -10px;
+  }
+}
 
 
 /*  Start Media Query Iphone potstrait */
